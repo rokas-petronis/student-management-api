@@ -43,7 +43,7 @@ The project currently contains a **machine-specific SQL Server connection string
 Once the local database setup is available, start the application:
 
 ```bash
-dotnet run --project student-management-api.csproj
+dotnet run --project web-project.csproj
 ```
 
 In the development environment, Swagger UI is available at `/swagger` on the application's local URL. The static frontend is served from `wwwroot`.
