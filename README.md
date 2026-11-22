@@ -35,7 +35,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/rokas-petronis/web-project.git
-cd web-project
+cd student-management-api
 ```
 
 The project currently contains a **machine-specific SQL Server connection string** in `Program.cs` and `SchoolContext.cs`. To use a different computer, the database connection needs to be configured for an available SQL Server instance and a compatible database schema must exist. The frontend also uses a fixed local HTTPS API address.
